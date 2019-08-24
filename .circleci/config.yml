@@ -14,6 +14,7 @@ jobs:
           # Must be relative path from root
           paths:
             - echo-output      
+      - run: sleep 25
   two:
     docker:
       - image: circleci/ruby:2.4.1
